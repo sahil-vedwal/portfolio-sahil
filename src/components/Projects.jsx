@@ -6,6 +6,9 @@ import faceImg from "../assets/fac.png";
 import iotImg from "../assets/iot.png";
 import smsImg from "../assets/smspy.png";
 import newImg from "../assets/new.png";
+import uiuxImg from "../assets/uiux.png";
+import usrImg from "../assets/usr.jpg";
+
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -63,14 +66,14 @@ const Projects = () => {
     name: "UEM Student Records",
     tech: "HTML + CSS + JS",
     description: "Responsive web platform with secure admin functionalities for student registration, data updates, and course assignments.",
-    image: desktopImg,
+    image: usrImg,
     githubLink: "https://github.com/sahil-vedwal/Student_Management_System_Using_Python"
   },
   {
     name: "Some UI/UX Designes",
     tech: "Figma",
     description: "Here are some of my UI/UX design projects created in Figma, where I focused on simplicity, usability, and modern visual appeal.",
-    image: smartHomeImg,
+    image: uiuxImg,
     githubLink: "https://github.com/sahil-vedwal/"
   },
   {
