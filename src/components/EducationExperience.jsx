@@ -15,6 +15,7 @@ import eyeImg from "../assets/eye.jpg";
 import stoneImg from "../assets/stone.png";
 import mountImg from "../assets/mount.png";
 import bookImg from "../assets/book.jpg";
+import etcImg from "../assets/etc.png";
 
 
 
@@ -447,7 +448,7 @@ const EducationExperience = () => {
                 <p className="text-gray-300 text-sm mt-2 text-center">A tiny House on a Stone.</p>
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/src/assets/project2.jpg" className="rounded-lg w-full h-48 object-cover" />
+                <img src={etcImg} className="rounded-lg w-full h-48 object-cover" />
                 <p className="text-gray-300 text-sm mt-2 text-center"> etc.</p>
               </SwiperSlide>
               {/* Yaha bhi aur add kar sakta hai */}

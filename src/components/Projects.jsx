@@ -8,6 +8,7 @@ import smsImg from "../assets/smspy.png";
 import newImg from "../assets/new.png";
 import uiuxImg from "../assets/uiux.png";
 import usrImg from "../assets/usr.jpg";
+import pfImg from "../assets/pf.png";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,6 +26,15 @@ const Projects = () => {
   }, []);
 
   const projects = [
+    {
+  name: "My Portfolio",
+  tech: "React.js, Tailwind CSS",
+  description: "A personal portfolio website built with React.js to showcase my projects, skills, and achievements. Features modern UI/UX, animations, and responsive design.",
+  image: pfImg, 
+  hasLiveDemo: true,
+  githubLink: "https://github.com/sahil-vedwal/portfolio-sahil",
+  demoLink: "https://sahil-vedwal.github.io/portfolio-sahil/"
+  },
   {
     name: "Krishna AI Chatbot",
     tech: "Gemini API + Bhagavad Gita",
