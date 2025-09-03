@@ -1,6 +1,26 @@
 import React, { useState, useEffect } from "react";
 import cLogo from "../assets/c.png";
-import pyLogo from "../assets/py.png";
+import pyLogo from "../assets/python.png";
+import javaLogo from "../assets/java.png";
+import jsLogo from "../assets/js.png";
+import reactLogo from "../assets/react.png";
+import htmlLogo from "../assets/html.png";
+import cssLogo from "../assets/css.png";
+import flutterLogo from "../assets/flutter.png";
+import tailwindLogo from "../assets/tailwind.png";
+import firebaseLogo from "../assets/firebase.png";
+import mysqlLogo from "../assets/mysql.png";
+import phpLogo from "../assets/php.png";
+import djangoLogo from "../assets/django.png";
+import figmaLogo from "../assets/figma.png";
+import canvaLogo from "../assets/canva.jpeg";
+import psLogo from "../assets/ps.png";
+import lrLogo from "../assets/lr.png";
+import vscodeLogo from "../assets/vscode.png";
+import githubLogo from "../assets/github.png";
+import postmanLogo from "../assets/pm.png";
+import awsLogo from "../assets/aws.png";
+import asLogo from "../assets/as.png";
 
 const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,46 +43,46 @@ const Skills = () => {
       skills: [
          { name: "C", image: cLogo, color: "from-blue-500 to-blue-700" },
          { name: "Python", image: pyLogo, color: "from-yellow-400 to-yellow-600" },
-        { name: "Java", image: "/public/images/java.png", color: "from-red-500 to-orange-500" },
-        { name: "JavaScript", image: "/public/images/js.png", color: "from-yellow-400 to-yellow-600" }
+        { name: "Java", image: javaLogo, color: "from-red-500 to-orange-500" },
+        { name: "JavaScript", image: jsLogo, color: "from-yellow-400 to-yellow-600" }
       ]
     },
     {
       title: "Web & Mobile",
       skills: [
-        { name: "React.js", image: "/images/react.png", color: "from-cyan-400 to-blue-500" },
-        { name: "HTML", image: "/images/html.png", color: "from-orange-500 to-blue-500" },
-         { name: "CSS", image: "/images/css.png", color: "from-orange-500 to-blue-500" },
-        { name: "Flutter", image: "/images/flutter.png", color: "from-blue-400 to-cyan-400" },
-        { name: "TailwindCSS", image: "/images/tailwind.png", color: "from-teal-400 to-blue-500" }
+        { name: "React.js", image:reactLogo, color: "from-cyan-400 to-blue-500" },
+        { name: "HTML", image: htmlLogo, color: "from-orange-500 to-blue-500" },
+         { name: "CSS", image: cssLogo, color: "from-orange-500 to-blue-500" },
+        { name: "Flutter", image: flutterLogo, color: "from-blue-400 to-cyan-400" },
+        { name: "TailwindCSS", image: tailwindLogo, color: "from-teal-400 to-blue-500" }
       ]
     },
     {
       title: "Backend & Database",
       skills: [
-        { name: "Firebase", image: "/images/firebase.png", color: "from-yellow-500 to-orange-500" },
-        { name: "MySQL", image: "/images/mysql.png", color: "from-blue-600 to-orange-500" },
-        { name: "PHP", image: "/images/php.png", color: "from-purple-600 to-blue-600" },
-        { name: "Django", image: "/images/django.png", color: "from-green-600 to-teal-500" }
+        { name: "Firebase", image: firebaseLogo, color: "from-yellow-500 to-orange-500" },
+        { name: "MySQL", image: mysqlLogo, color: "from-blue-600 to-orange-500" },
+        { name: "PHP", image: phpLogo, color: "from-purple-600 to-blue-600" },
+        { name: "Django", image: djangoLogo, color: "from-green-600 to-teal-500" }
       ]
     },
     {
       title: "Design & Tools",
       skills: [
-        { name: "Figma", image: "/images/figma.png", color: "from-purple-500 to-pink-500" },
-        { name: "Canva", image: "/images/canva.jpeg", color: "from-cyan-400 to-purple-500" },
-        { name: "Photoshop", image: "/images/ps.png", color: "from-blue-600 to-cyan-500" },
-        { name: "Lightroom", image: "/images/lr.png", color: "from-blue-500 to-purple-500" }
+        { name: "Figma", image: figmaLogo, color: "from-purple-500 to-pink-500" },
+        { name: "Canva", image: canvaLogo, color: "from-cyan-400 to-purple-500" },
+        { name: "Photoshop", image: psLogo, color: "from-blue-600 to-cyan-500" },
+        { name: "Lightroom", image: lrLogo, color: "from-blue-500 to-purple-500" }
       ]
     },
     {
       title: "Development Tools",
       skills: [
-        { name: "VS Code", image: "/images/vscode.png", color: "from-blue-500 to-cyan-400" },
-        { name: "GitHub", image: "/images/github.png", color: "from-[#000000] to-[#000000]" },
-        { name: "Postman", image: "/images/pm.png", color: "from-orange-500 to-red-500" },
-        { name: "AWS", image: "/images/aws.png", color: "from-orange-500 to-yellow-500" },
-        { name: "Android Studio", image: "/images/as.png", color: "from-green-500 to-green-500" }
+        { name: "VS Code", image: vscodeLogo, color: "from-blue-500 to-cyan-400" },
+        { name: "GitHub", image: githubLogo, color: "from-[#000000] to-[#000000]" },
+        { name: "Postman", image: postmanLogo, color: "from-orange-500 to-red-500" },
+        { name: "AWS", image: awsLogo, color: "from-orange-500 to-yellow-500" },
+        { name: "Android Studio", image: asLogo, color: "from-green-500 to-green-500" }
       ]
     }
   ];
