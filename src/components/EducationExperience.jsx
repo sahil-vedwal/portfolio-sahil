@@ -319,7 +319,7 @@ const EducationExperience = () => {
           style={{ transitionDelay: '1.0s' }}
         >
           <div className="flex items-center mb-8">
-            <div className="text-6xl mr-4">🏆</div>
+            <div className="text-6xl mr-4"></div>
             <h2
             className={`text-4xl sm:text-6xl font-black bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent mb-4 transition-all duration-1000 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
