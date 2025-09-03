@@ -81,7 +81,7 @@ const About = () => {
 
   {/* Download CV Button */}
   <a
-    href="/cv.pdf"
+    href="/public/cv.pdf"
     download="Sahil_Vedwal_CV.pdf"
     className="inline-block mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-cyan-400 via-[#7a8591] to-cyan-400 text-[#031025] font-bold text-lg shadow-lg hover:scale-105 transform transition-all duration-300"
     style={{ fontFamily: "'Orbitron', sans-serif" }}
