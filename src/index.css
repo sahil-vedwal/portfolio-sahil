@@ -1,0 +1,13 @@
+/* Sabse pehle Tailwind import */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom gradient variables */
+:root {
+  --gradient-sahil: linear-gradient(to right, #9333ea, #3b82f6, #06b6d4);
+}
