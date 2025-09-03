@@ -14,7 +14,7 @@ import tshirtImg from "../assets/tshirt.jpg";
 import eyeImg from "../assets/eye.jpg";
 import stoneImg from "../assets/stone.png";
 import mountImg from "../assets/mount.png";
-import bookImg from "../assets/book.png";
+import bookImg from "../assets/book.jpg";
 
 
 

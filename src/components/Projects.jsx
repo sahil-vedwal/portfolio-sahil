@@ -1,13 +1,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import krishnaImg from "../assets/images/krishna.png";
-import expenseImg from "../assets/images/expense-tracker.png";
-import faceImg from "../assets/images/fac.png";
-import iotImg from "../assets/images/iot.png";
-import smsImg from "../assets/images/smspy.png";
-import desktopImg from "../assets/images/desktop-student-records.jpg";
-import smartHomeImg from "../assets/images/smart-home.jpg";
-import newImg from "../assets/images/new.png";
+import krishnaImg from "../assets/krishna.png";
+import expenseImg from "../assets/expense-tracker.png";
+import faceImg from "../assets/fac.png";
+import iotImg from "../assets/iot.png";
+import smsImg from "../assets/smspy.png";
+import newImg from "../assets/new.png";
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
 
