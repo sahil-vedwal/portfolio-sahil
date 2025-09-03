@@ -1,6 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
-
+import krishnaImg from "../assets/images/krishna.png";
+import expenseImg from "../assets/images/expense-tracker.png";
+import faceImg from "../assets/images/fac.png";
+import iotImg from "../assets/images/iot.png";
+import smsImg from "../assets/images/smspy.png";
+import desktopImg from "../assets/images/desktop-student-records.jpg";
+import smartHomeImg from "../assets/images/smart-home.jpg";
+import newImg from "../assets/images/new.png";
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -17,82 +24,65 @@ const Projects = () => {
   }, []);
 
   const projects = [
-
   {
     name: "Krishna AI Chatbot",
     tech: "Gemini API + Bhagavad Gita",
     description: "AI chatbot emulating Lord Krishna's persona with wisdom from Bhagavad Gita, featuring voice output and ethical filtering.",
-    image: "/images/krishna.png", // public folder se direct access
+    image: krishnaImg,
     hasLiveDemo: true,
     githubLink: "https://github.com/sahil-vedwal/krishna_ai",
     demoLink: "https://sahil-vedwal.github.io/krishna_ai/"
-
   },
-    {
-      name: "Expense Tracker App",
-      tech: "Flutter + Firebase",
-      description: "Cross-platform mobile app for tracking and categorizing daily expenses with Firebase authentication and real-time database.",
-      image: "/images/expense-tracker.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/Expense-Tracker-App-using-Flutter"
-    },
-    {
-      name: "Face Recognition Attendance",
-      tech: "OpenCV + Deep Learning",
-      description: "AI-based attendance system with spoof detection and SMS alerts. Achieved 95% accuracy and reduced proxy attendance by 40%.",
-      image: "/images/fac.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/Face-Recognition-Attendance-system-using-Python-DL-ML"
-    },
-    {
-      name: "Smart Home Automation",
-      tech: "IoT + Microcontrollers",
-      description: "Voice-controlled home automation system with sensors and relays. Achieved 40% energy consumption savings.",
-      image: "/images/iot.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/smart-home-automation" // Update with actual link
-    },
-    {
-      name: "UEM Student Management System",
-      tech: "Python + MySQL",
-      description: "Responsive web platform with secure admin functionalities for student registration, data updates, and course assignments.",
-      image: "/images/smspy.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/student-management-system" // Update with actual link
-    },
-    {
-      name: "UEM Student Records",
-      tech: "HTML + CSS + JS",
-      description: "Desktop system for managing student records with enrollment, course registration, and grade tracking capabilities.",
-      image: "/images/desktop-student-records.jpg", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/Student_Management_System_Using_Python"
-    },
-       {
-      name: "Some UI/UX Designes",
-      tech: "Figma",
-      description: "Here are some of my UI/UX design projects created in Figma, where I focused on simplicity, usability, and modern visual appeal.",
-      image: "/images/smart-home.jpg", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal/" // Update with actual link
-    },
-      {
-      name: "Coming Soon ",
-      tech: " ... ",
-      description: " ",
-      image: "/images/new.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal" // Update with actual link
-    },
-      {
-      name: "Coming Soon",
-      tech: " ... ",
-      description: " ",
-      image: "/images/new.png", // Add your image here
-      hasLiveDemo: false,
-      githubLink: "https://github.com/sahil-vedwal" // Update with actual link
-    }
-  ];
+  {
+    name: "Expense Tracker App",
+    tech: "Flutter + Firebase",
+    description: "Cross-platform mobile app for tracking and categorizing daily expenses with Firebase authentication and real-time database.",
+    image: expenseImg,
+    githubLink: "https://github.com/sahil-vedwal/Expense-Tracker-App-using-Flutter"
+  },
+  {
+    name: "Face Recognition Attendance",
+    tech: "OpenCV + Deep Learning",
+    description: "AI-based attendance system with spoof detection and SMS alerts. Achieved 95% accuracy and reduced proxy attendance by 40%.",
+    image: faceImg,
+    githubLink: "https://github.com/sahil-vedwal/Face-Recognition-Attendance-system-using-Python-DL-ML"
+  },
+  {
+    name: "Smart Home Automation",
+    tech: "IoT + Microcontrollers",
+    description: "Voice-controlled home automation system with sensors and relays. Achieved 40% energy consumption savings.",
+    image: iotImg,
+    githubLink: "https://github.com/sahil-vedwal/smart-home-automation"
+  },
+  {
+    name: "UEM Student Management System",
+    tech: "Python + MySQL",
+    description: "Desktop system for managing student records with enrollment, course registration, and grade tracking capabilities.",
+    image: smsImg,
+    githubLink: "https://github.com/sahil-vedwal/student-management-system"
+  },
+  {
+    name: "UEM Student Records",
+    tech: "HTML + CSS + JS",
+    description: "Responsive web platform with secure admin functionalities for student registration, data updates, and course assignments.",
+    image: desktopImg,
+    githubLink: "https://github.com/sahil-vedwal/Student_Management_System_Using_Python"
+  },
+  {
+    name: "Some UI/UX Designes",
+    tech: "Figma",
+    description: "Here are some of my UI/UX design projects created in Figma, where I focused on simplicity, usability, and modern visual appeal.",
+    image: smartHomeImg,
+    githubLink: "https://github.com/sahil-vedwal/"
+  },
+  {
+    name: "Coming Soon",
+    tech: "...",
+    description: "...",
+    image: newImg,
+    githubLink: "https://github.com/sahil-vedwal"
+  }
+];
 
   // Handle navigation clicks
   const handleLinkClick = (url) => {

@@ -1,8 +1,22 @@
 import React from "react";
 import { useState, useEffect } from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+
+import pyCert from "../assets/py.png";
+import bdCert from "../assets/bd.png";
+import osCert from "../assets/os.png";
+import skCert from "../assets/sk.png";
+import fcsCert from "../assets/fcs.png";
+import genaiCert from "../assets/genai.png";
+
+import tshirtImg from "../assets/tshirt.jpg";
+import eyeImg from "../assets/eye.jpg";
+import stoneImg from "../assets/stone.png";
+import mountImg from "../assets/mount.png";
+import bookImg from "../assets/book.png";
+
+
 
 const EducationExperience = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -67,31 +81,30 @@ const EducationExperience = () => {
 
    const certifications = [
   {
-     title: "The Joy of Computing Using Python – NPTEL, IIT Madras",
-    image: "/certificates/py.png"
+    title: "The Joy of Computing Using Python – NPTEL, IIT Madras",
+    image: pyCert,
   },
   {
-   title: "Big Data Computing – NPTEL, IIT Kanpur",
-    image: "/certificates/bd.png"
+    title: "Big Data Computing – NPTEL, IIT Kanpur",
+    image: bdCert,
   },
   {
-     title: "Introduction to Operating Systems – NPTEL, IIT Madras",
-    image: "/certificates/os.png"
+    title: "Introduction to Operating Systems – NPTEL, IIT Madras",
+    image: osCert,
   },
   {
     title: "Developing Soft Skills and Personality – NPTEL, IIT Kanpur",
-    image: "/certificates/sk.png"
+    image: skCert,
   },
   {
     title: "Foundations of Cybersecurity – Coursera, Google",
-    image: "/certificates/fcs.png"
+    image: fcsCert,
   },
   {
     title: "Generative AI Fundamentals – IBM",
-    image: "/certificates/genai.png"
-  }
+    image: genaiCert,
+  },
 ];
-
 
   return (
     <section 
@@ -403,11 +416,11 @@ const EducationExperience = () => {
               className="rounded-lg"
             >
               <SwiperSlide>
-                <img src="/images/tshirt.jpg" className="rounded-lg w-full h-48 object-cover" />
+                <img src={tshirtImg} className="rounded-lg w-full h-48 object-cover" />
                 <p className="text-gray-300 text-sm mt-2 text-center">Proud moment..!! The Dean of my university buys T-shirt with my artwork in a bidding competition! 🎉.</p>
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/images/eye.jpg" className="rounded-lg w-full h-48 object-cover" />
+                <img src={eyeImg} className="rounded-lg w-full h-48 object-cover" />
                 <p className="text-gray-300 text-sm mt-2 text-center">The YELLOW Eye.</p>
               </SwiperSlide>
               {/* Yaha aur unlimited slides add kar sakta hai */}
@@ -430,7 +443,7 @@ const EducationExperience = () => {
               className="rounded-lg"
             >
               <SwiperSlide>
-                <img src="/images/stone.png" className="rounded-lg w-full h-48 object-cover" />
+                <img src={stoneImg} className="rounded-lg w-full h-48 object-cover" />
                 <p className="text-gray-300 text-sm mt-2 text-center">A tiny House on a Stone.</p>
               </SwiperSlide>
               <SwiperSlide>
@@ -457,12 +470,12 @@ const EducationExperience = () => {
               className="rounded-lg"
             >
               <SwiperSlide>
-                <img src="/images/mount.png" className="rounded-lg w-full h-48 object-cover" />
-                <p className="text-gray-300 text-sm mt-2 text-center">Just trying to focus.</p>
+                <img src={mountImg} className="rounded-lg w-full h-48 object-cover" />
+                <p className="text-gray-300 text-sm mt-2 text-center">Silence speaks the loudest.</p>
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/src/assets/other2.jpg" className="rounded-lg w-full h-48 object-cover" />
-                <p className="text-gray-300 text-sm mt-2 text-center"></p>
+                <img src={bookImg} className="rounded-lg w-full h-48 object-cover" />
+                <p className="text-gray-300 text-sm mt-2 text-center">Book Reading.</p>
               </SwiperSlide>
               {/* Unlimited slides */}
             </Swiper>
