@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import cLogo from "../assets/c.png";
 
 const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,7 +19,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: [{ name: "C", image: "images/c.png", color: "from-blue-500 to-blue-700" },
+      skills: [{ name: "C", image: cLogo, color: "from-blue-500 to-blue-700" },
                { name: "Python", image: "/public/images/python.png", color: "from-yellow-400 to-green-500" },
         { name: "Java", image: "/public/images/java.png", color: "from-red-500 to-orange-500" },
         { name: "JavaScript", image: "/public/images/js.png", color: "from-yellow-400 to-yellow-600" }
